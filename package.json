@@ -9,11 +9,11 @@
   "private": false,
   "peerDependencies": {
     "eslint": ">= 3",
-    "eslint-config-airbnb": "15.x",
+    "eslint-config-airbnb": "16.x",
     "babel-eslint": "7.x",
     "eslint-plugin-flowtype": "2.x",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "5.x",
+    "eslint-plugin-jsx-a11y": "6.x",
     "eslint-plugin-react": "7.x"
   }
 }
