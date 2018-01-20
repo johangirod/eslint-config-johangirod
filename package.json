@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-johangirod",
+  "version": "1.0.0",
+  "description": "My personal eslint config",
+  "main": "index.js",
+  "repository": "https://github.com/johangirod/eslint-config-johangirod",
+  "author": "Johan Girod (dev@johangirod.com)",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-config-airbnb": "15.x",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "5.x",
+    "eslint-plugin-react": "7.x"
+  }
+}
