@@ -18,7 +18,9 @@ module.exports = {
         "react/jsx-indent-props": ["error", 4],
         "react/react-in-jsx-scope": "off",
         "react/style-prop-object": "off",
-        "react/prop-types": "off"
+        "react/prop-types": "off",
+        // jsx should not be dependant of extension
+        "react/jsx-filename-extension": "off"
     },
     // Vitaminjs variables
     globals: {
