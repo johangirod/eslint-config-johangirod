@@ -21,3 +21,11 @@
 ### Bug Fixes
 
     * change versions of peer-dependencies (e0e43a1 (https://github.com/johangirod/eslint-config-johangirod/commit/e0e43a1))
+
+<a name="1.1.0"></a>
+
+# 1.1.0 (https://github.com/johangirod/eslint-config-johangirod/compare/a71a26ce939eed00b8025a9042d8c7701c06d3f5...v1.1.0) (2018-01-20)
+
+### Features
+
+    * remove jsx filename extension rule (817ebba (https://github.com/johangirod/eslint-config-johangirod/commit/817ebba))
