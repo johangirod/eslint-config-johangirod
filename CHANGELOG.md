@@ -29,3 +29,11 @@
 ### Features
 
     * remove jsx filename extension rule (817ebba (https://github.com/johangirod/eslint-config-johangirod/commit/817ebba))
+
+<a name="1.2.0"></a>
+
+# 1.2.0 (https://github.com/johangirod/eslint-config-johangirod/compare/37f7484473f6dd50414f0d416fea491d816aa226...v1.2.0) (2018-01-31)
+
+### Features
+
+    * update package.json (d9f9a94 (https://github.com/johangirod/eslint-config-johangirod/commit/d9f9a94))
