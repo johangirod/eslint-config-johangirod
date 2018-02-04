@@ -8,18 +8,33 @@
   "license": "MIT",
   "private": false,
   "peerDependencies": {
+      "babel-eslint": "^8.2.1",
+      "eslint": "^4.16.0",
+      "eslint-config-airbnb": "^16.1.0",
+      "eslint-plugin-flowtype": "^2.35.0",
+      "eslint-plugin-import": "^2.7.0",
+      "eslint-plugin-jsx-a11y": "^6.0.3",
+      "eslint-plugin-prettier": "2.6.0",
+      "eslint-plugin-react": "^7.1.0",
+      "prettier": "^1.10.2"
+  },
+  "devDependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.16.0",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-flowtype": "^2.35.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.1.0"
-  },
-  "scripts  ": {
-    "release": "semantic-release"
-  },
-  "devDependencies": {
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-react": "^7.1.0",
+    "prettier": "^1.10.2",
     "semantic-release": "^12.4.1"
+  },
+  "scripts": {
+    "release": "semantic-release",
+    "lint": "eslint ./index.js"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^2.9.0"
   }
 }

@@ -1,10 +1,17 @@
 module.exports = {
-    extends: ["airbnb", "plugin:flowtype/recommended"],
+    extends: [
+        "airbnb",
+        "plugin:flowtype/recommended",
+        "prettier",
+        "prettier/flowtype",
+        "prettier/react",
+        "prettier/standard"
+    ],
     env: {
         "browser": true,
         "commonjs": true,
         "es6": true,
-        "node": true
+        "node": true,
     },
     rules: {
         "indent": ["error", 4],
@@ -19,8 +26,8 @@ module.exports = {
         "react/react-in-jsx-scope": "off",
         "react/style-prop-object": "off",
         "react/prop-types": "off",
-        // jsx should not be dependant of extension
-        "react/jsx-filename-extension": "off"
+        "react/jsx-filename-extension": "off",
+        "react/default-props-match-prop-types":  [true, { "allowRequiredDefaults": true }]
     },
     // Vitaminjs variables
     globals: {
